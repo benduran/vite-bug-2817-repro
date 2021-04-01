@@ -1,0 +1,22 @@
+{
+  "lerna": "latest",
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--pure-lockfile"
+      ]
+    },
+    "run": {
+      "concurrency": 1
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  },
+  "version": "independent"
+}

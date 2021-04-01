@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "noEmit": true,
+    "isolatedModules": true,
+    "typeRoots": [
+      "node_modules/**/@types",
+      "./@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}
